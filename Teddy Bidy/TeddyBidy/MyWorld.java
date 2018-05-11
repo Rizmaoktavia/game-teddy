@@ -8,7 +8,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class MyWorld extends World
 {
-    Counter counter = new Counter("Skor: ");
+    Counter counter = new Counter("Poin: ");
     /**
      * Constructor for objects of class MyWorld.
      * 
@@ -45,6 +45,7 @@ public class MyWorld extends World
         
         
     }
+    
     public void tambah(){
         counter.add(5);
     }

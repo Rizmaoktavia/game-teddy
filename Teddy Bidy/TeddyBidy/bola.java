@@ -16,7 +16,7 @@ public class bola extends Actor
     {
         if(!stuck)
         {
-            move();
+            gerak();
         }
         
         gerak();
@@ -24,17 +24,9 @@ public class bola extends Actor
         kiri();
         atas();
         papankayu();
-        beruang();
+        teddy();
     }
-    
-    public void move()
-    {
-        setLocation (getX() + x, getY() + y);
-        papankayu();
-        beruang();
-    }
-        
-    
+   
     /**
      * Act - do whatever the bola wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
@@ -67,12 +59,12 @@ public class bola extends Actor
     {
         Actor teddybear=getOneIntersectingObject(teddy.class);
         if(getY()<=getImage().getHeight()/2){
-            y=y+1;
+            y=y-1;
         }
-        if(teddybear !=null){
-            ((MyWorld)getWorld()).tambah();
-            getWorld().removeObject(teddybear);
-        }
+        //if(teddybear !=null){
+        //    ((MyWorld)getWorld()).tambah();
+         //   getWorld().removeObject(teddybear);
+        //}
         
     }
     public void papankayu()
@@ -86,23 +78,26 @@ public class bola extends Actor
         }
         
     }
-    public void beruang()
+    public void teddy()
     {
-        Actor teddy=getOneIntersectingObject(teddy.class);
+      Actor teddy = getOneIntersectingObject(teddy.class);
+        if (teddy !=null){
+        y = -y;
+        int offset = getX() - teddy.getX();
+        x = x + (offset/10); 
+        if (x > 1) {
+                x = 1;
+        }
+        if (x < -1) {
+                x = -1;
+        }
         if(teddy !=null){
-            y=y+1;
+            ((MyWorld)getWorld()).tambah();
+            getWorld().removeObject(teddy);
         }
-        if(getY()>=getWorld().getHeight()-getImage().getHeight()/2){
-            Greenfoot.stop();
+      }
         
-           
-        }
     }
-    public void release()
-    {
-        x = 0;
-        y = -5;
-        stuck = false;
-    }
+   
    
 }
