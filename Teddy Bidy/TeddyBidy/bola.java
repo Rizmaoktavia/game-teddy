@@ -1,12 +1,6 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
-/**
- * Write a description of class bola here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
- */
-public class bola extends Actor
+ class bola extends Actor
 {
     int x=3;
     int y=3;
@@ -75,6 +69,7 @@ public class bola extends Actor
         }
         if(getY()>=getWorld().getHeight()-getImage().getHeight()/2){
             Greenfoot.stop();
+            Greenfoot.playSound("fall.mp3");
         }
         
     }
@@ -94,6 +89,7 @@ public class bola extends Actor
         if(teddy !=null){
             ((MyWorld)getWorld()).tambah();
             getWorld().removeObject(teddy);
+            Greenfoot.playSound("coins.mp3");
         }
       }
         

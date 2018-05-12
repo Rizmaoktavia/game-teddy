@@ -1,6 +1,7 @@
 #Greenfoot properties
-#Fri May 11 12:13:48 SGT 2018
+#Sat May 12 11:08:26 ICT 2018
 target4.type=ClassTarget
+<<<<<<<=HEAD
 dependency3.from=bola
 target3.height=50
 target5.height=50
@@ -18,6 +19,7 @@ target3.typeParameters=
 dependency4.from=MyWorld
 mainWindow.width=1382
 dependency4.type=UsesDependency
+>>>>>>>=d13f2eecc7c5d3eba24ed1482289db2b2dabff8e
 target2.width=80
 target5.name=MyWorld
 version=3.0.0
@@ -27,8 +29,8 @@ dependency5.from=MyWorld
 dependency2.to=teddy
 target1.width=80
 dependency5.type=UsesDependency
-editor.fx.0.y=0
-editor.fx.0.x=473
+editor.fx.0.y=-4
+editor.fx.0.x=275
 target2.typeParameters=
 class.teddy.image=teddybear.png
 dependency3.to=MyWorld
@@ -39,20 +41,7 @@ target1.showInterface=false
 target5.showInterface=false
 dependency6.to=papan
 dependency7.to=teddy
-<<<<<<< HEAD
-dependency7.type=UsesDependency
-editor.fx.0.height=739
-editor.fx.0.width=816
-editor.fx.0.x=275
-editor.fx.0.y=-4
-mainWindow.height=744
-mainWindow.width=1382
-mainWindow.x=-8
-mainWindow.y=-8
-package.numDependencies=7
-=======
 dependency6.from=MyWorld
->>>>>>> d13f2eecc7c5d3eba24ed1482289db2b2dabff8e
 package.numTargets=5
 dependency6.type=UsesDependency
 target1.type=ClassTarget
@@ -98,7 +87,8 @@ target2.showInterface=false
 target3.name=teddy
 class.papan.image=bread.png
 class.Counter.image=Counter.png
-project.charset=UTF-8
 target3.width=80
+project.charset=UTF-8
 class.MyWorld.image=unnamed.jpg
 target4.showInterface=false
+=\=\=\=\=\=\=
