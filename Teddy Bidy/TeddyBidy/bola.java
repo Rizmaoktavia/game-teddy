@@ -1,6 +1,12 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
- class bola extends Actor
+/**
+ * Write a description of class bola here.
+ * 
+ * @author (your name) 
+ * @version (a version number or a date)
+ */
+public class bola extends Actor
 {
     int x=3;
     int y=3;
@@ -69,7 +75,6 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
         }
         if(getY()>=getWorld().getHeight()-getImage().getHeight()/2){
             Greenfoot.stop();
-            Greenfoot.playSound("fall.mp3");
         }
         
     }
@@ -89,7 +94,6 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
         if(teddy !=null){
             ((MyWorld)getWorld()).tambah();
             getWorld().removeObject(teddy);
-            Greenfoot.playSound("coins.mp3");
         }
       }
         
