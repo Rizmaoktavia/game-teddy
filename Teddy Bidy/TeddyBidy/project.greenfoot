@@ -1,4 +1,7 @@
 #Greenfoot project file
+=\=\=\=\=\=\=
+<<<<<<<=HEAD
+>>>>>>>=38a12dd4791cbc471bd1bb01c7b68afff1b47988
 class.Counter.image=Counter.png
 class.Counter.superclass=greenfoot.Actor
 class.GameOver.superclass=greenfoot.Actor
@@ -31,20 +34,16 @@ dependency6.type=UsesDependency
 dependency7.from=MyWorld
 dependency7.to=teddy
 dependency7.type=UsesDependency
-editor.fx.0.height=739
-editor.fx.0.width=816
-editor.fx.0.x=275
-editor.fx.0.y=-4
+editor.fx.0.height=0
+editor.fx.0.width=0
+editor.fx.0.x=0
+editor.fx.0.y=0
 mainWindow.height=744
 mainWindow.width=1382
 mainWindow.x=-8
 mainWindow.y=-8
 package.numDependencies=7
-<<<<<<< HEAD
-package.numTargets=5
-=======
 package.numTargets=6
->>>>>>> 38a12dd4791cbc471bd1bb01c7b68afff1b47988
 project.charset=UTF-8
 readme.height=58
 readme.name=@README
