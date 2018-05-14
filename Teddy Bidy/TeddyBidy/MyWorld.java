@@ -8,11 +8,8 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class MyWorld extends World
 {
-    Counter counter = new Counter("Poin: ");
-    /**
-     * Constructor for objects of class MyWorld.
-     * 
-     */
+    Counter counter = new Counter("Score: ");
+    GreenfootSound backgroundMusic = new GreenfootSound("theme.mp3");
     public MyWorld()
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
@@ -43,9 +40,18 @@ public class MyWorld extends World
         addObject(new teddy(), 300, 190);
         addObject(new teddy(), 372, 190);
         
+        backgroundMusic.playLoop();
         
     }
-    
+    public void stopped()
+{
+     backgroundMusic.pause();
+}
+ 
+public void started()
+{
+    backgroundMusic.playLoop();
+}
     public void tambah(){
         counter.add(5);
     }
