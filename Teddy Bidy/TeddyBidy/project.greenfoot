@@ -4,11 +4,20 @@
 >>>>>>>=38a12dd4791cbc471bd1bb01c7b68afff1b47988
 class.Counter.image=Counter.png
 class.Counter.superclass=greenfoot.Actor
+<<<<<<< HEAD
+=======
+class.GameOver.image=gameover.jpg
+>>>>>>> 8b58d9ac3583c97771479e4b9038725de5341636
 class.GameOver.superclass=greenfoot.Actor
 class.MyWorld.image=unnamed.jpg
 class.MyWorld.superclass=greenfoot.World
 class.bola.image=orange.png
 class.bola.superclass=greenfoot.Actor
+<<<<<<< HEAD
+=======
+class.garis.image=garis.jpg
+class.garis.superclass=greenfoot.Actor
+>>>>>>> 8b58d9ac3583c97771479e4b9038725de5341636
 class.papan.image=bread.png
 class.papan.superclass=greenfoot.Actor
 class.teddy.image=teddybear.png
@@ -16,12 +25,19 @@ class.teddy.superclass=greenfoot.Actor
 dependency1.from=bola
 dependency1.to=papan
 dependency1.type=UsesDependency
+<<<<<<< HEAD
+=======
+dependency10.from=MyWorld
+dependency10.to=garis
+dependency10.type=UsesDependency
+>>>>>>> 8b58d9ac3583c97771479e4b9038725de5341636
 dependency2.from=bola
 dependency2.to=teddy
 dependency2.type=UsesDependency
 dependency3.from=bola
 dependency3.to=MyWorld
 dependency3.type=UsesDependency
+<<<<<<< HEAD
 dependency4.from=MyWorld
 dependency4.to=Counter
 dependency4.type=UsesDependency
@@ -34,6 +50,26 @@ dependency6.type=UsesDependency
 dependency7.from=MyWorld
 dependency7.to=teddy
 dependency7.type=UsesDependency
+=======
+dependency4.from=bola
+dependency4.to=garis
+dependency4.type=UsesDependency
+dependency5.from=bola
+dependency5.to=GameOver
+dependency5.type=UsesDependency
+dependency6.from=MyWorld
+dependency6.to=Counter
+dependency6.type=UsesDependency
+dependency7.from=MyWorld
+dependency7.to=bola
+dependency7.type=UsesDependency
+dependency8.from=MyWorld
+dependency8.to=papan
+dependency8.type=UsesDependency
+dependency9.from=MyWorld
+dependency9.to=teddy
+dependency9.type=UsesDependency
+>>>>>>> 8b58d9ac3583c97771479e4b9038725de5341636
 editor.fx.0.height=0
 editor.fx.0.width=0
 editor.fx.0.x=0
@@ -42,8 +78,13 @@ mainWindow.height=744
 mainWindow.width=1382
 mainWindow.x=-8
 mainWindow.y=-8
+<<<<<<< HEAD
 package.numDependencies=7
 package.numTargets=6
+=======
+package.numDependencies=10
+package.numTargets=7
+>>>>>>> 8b58d9ac3583c97771479e4b9038725de5341636
 project.charset=UTF-8
 readme.height=58
 readme.name=@README
@@ -83,7 +124,11 @@ target4.width=80
 target4.x=0
 target4.y=0
 target5.height=50
+<<<<<<< HEAD
 target5.name=bola
+=======
+target5.name=garis
+>>>>>>> 8b58d9ac3583c97771479e4b9038725de5341636
 target5.showInterface=false
 target5.type=ClassTarget
 target5.typeParameters=
@@ -91,12 +136,27 @@ target5.width=80
 target5.x=0
 target5.y=0
 target6.height=50
+<<<<<<< HEAD
 target6.name=MyWorld
+=======
+target6.name=bola
+>>>>>>> 8b58d9ac3583c97771479e4b9038725de5341636
 target6.showInterface=false
 target6.type=ClassTarget
 target6.typeParameters=
 target6.width=80
 target6.x=0
 target6.y=0
+<<<<<<< HEAD
+=======
+target7.height=50
+target7.name=MyWorld
+target7.showInterface=false
+target7.type=ClassTarget
+target7.typeParameters=
+target7.width=80
+target7.x=0
+target7.y=0
+>>>>>>> 8b58d9ac3583c97771479e4b9038725de5341636
 version=3.0.0
 world.lastInstantiated=MyWorld
