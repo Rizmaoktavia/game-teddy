@@ -25,7 +25,17 @@ public class bola extends Actor
         atas();
         papankayu();
         teddy();
+    
+    if (isTouching(garis.class)){
+    Greenfoot.stop ();
+    getWorld().addObject(new GameOver(),
+    getWorld().getWidth()/2,
+    getWorld().getHeight()/2);
+}
     }
+    
+    
+
    
     /**
      * Act - do whatever the bola wants to do. This method is called whenever

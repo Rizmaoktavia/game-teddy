@@ -40,18 +40,20 @@ public class MyWorld extends World
         addObject(new teddy(), 300, 190);
         addObject(new teddy(), 372, 190);
         
+        addObject(new garis(), 200, 600);
+        
         backgroundMusic.playLoop();
         
     }
     public void stopped()
-{
-     backgroundMusic.pause();
-}
+    {
+        backgroundMusic.pause();
+    }
  
-public void started()
-{
-    backgroundMusic.playLoop();
-}
+    public void started()
+    {
+        backgroundMusic.playLoop();
+    }
     public void tambah(){
         counter.add(5);
     }
