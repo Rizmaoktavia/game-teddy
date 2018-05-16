@@ -86,6 +86,7 @@ public class bola extends Actor
         if(getY()>=getWorld().getHeight()-getImage().getHeight()/2){
             Greenfoot.stop();
             Greenfoot.playSound("fall.mp3");
+            Greenfoot.playSound("GameOver.mp3");
         }
         
     }
