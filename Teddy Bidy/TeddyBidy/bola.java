@@ -69,7 +69,7 @@ public class bola extends Actor
     {
         Actor teddybear=getOneIntersectingObject(teddy.class);
         if(getY()<=getImage().getHeight()/2){
-            y=y-1;
+            y= -y;
         }
         //if(teddybear !=null){
         //    ((MyWorld)getWorld()).tambah();

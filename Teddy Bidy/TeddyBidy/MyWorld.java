@@ -16,6 +16,7 @@ public class MyWorld extends World
         super(400, 600, 1); 
         addObject(counter,70,580);
         
+
         addObject(new bola(), 200, 550);
         addObject(new papan(), 200, 580);
         
