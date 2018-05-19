@@ -1,5 +1,5 @@
 #Greenfoot properties
-#Sat May 19 23:43:12 SGT 2018
+#Sat May 19 23:46:08 SGT 2018
 dependency9.type=UsesDependency
 target4.type=ClassTarget
 <<<<<<<=HEAD
@@ -15,7 +15,7 @@ target4.typeParameters=
 class.garis.image=garis.jpg
 readme.width=47
 class.teddy.superclass=greenfoot.Actor
-editor.fx.0.width=816
+editor.fx.0.width=0
 target1.height=50
 target5.type=ClassTarget
 target3.typeParameters=
@@ -34,9 +34,9 @@ dependency5.from=bola
 dependency2.to=teddy
 target1.width=80
 dependency5.type=UsesDependency
-editor.fx.0.y=135
+editor.fx.0.y=0
 target2.typeParameters=
-editor.fx.0.x=273
+editor.fx.0.x=0
 class.teddy.image=teddybear.png
 dependency3.to=MyWorld
 target3.showInterface=false
@@ -89,7 +89,7 @@ target6.typeParameters=
 dependency1.from=bola
 target5.width=80
 target1.y=0
-editor.fx.0.height=739
+editor.fx.0.height=0
 class.bola.superclass=greenfoot.Actor
 target1.x=0
 dependency1.type=UsesDependency

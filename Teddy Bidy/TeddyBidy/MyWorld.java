@@ -8,7 +8,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class MyWorld extends World
 {
-    Counter counter = new Counter("Score: ");
+    Counter counter = new Counter("SCORE: ");
     GreenfootSound backgroundMusic = new GreenfootSound("theme.mp3");
     public MyWorld()
     {    
