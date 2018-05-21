@@ -12,16 +12,23 @@ class.PlayAgain.image=unnamed.png
 class.PlayAgain.superclass=greenfoot.Actor
 class.bola.image=orange.png
 class.bola.superclass=greenfoot.Actor
+class.form1.image=unnamed.jpg
+class.form1.superclass=greenfoot.World
 class.garis.image=garis.jpg
 class.garis.superclass=greenfoot.Actor
 class.papan.image=bread.png
 class.papan.superclass=greenfoot.Actor
+class.playbutton.image=buttonplay.png
+class.playbutton.superclass=greenfoot.Actor
+class.quitbutton.image=buttonquit.png
+class.quitbutton.superclass=greenfoot.Actor
 class.teddy.image=teddybear.png
 class.teddy.superclass=greenfoot.Actor
 dependency1.from=PlayAgain
 dependency1.to=MyWorld
 dependency1.type=UsesDependency
 dependency10.from=MyWorld
+<<<<<<< HEAD
 dependency10.to=papan
 dependency10.type=UsesDependency
 dependency11.from=MyWorld
@@ -30,6 +37,13 @@ dependency11.type=UsesDependency
 dependency12.from=MyWorld
 dependency12.to=garis
 dependency12.type=UsesDependency
+=======
+dependency10.to=teddy
+dependency10.type=UsesDependency
+dependency11.from=MyWorld
+dependency11.to=garis
+dependency11.type=UsesDependency
+>>>>>>> fde0fe44f4c87ef8a9c38a4f4444599669d75edc
 dependency2.from=bola
 dependency2.to=papan
 dependency2.type=UsesDependency
@@ -42,6 +56,7 @@ dependency4.type=UsesDependency
 dependency5.from=bola
 dependency5.to=garis
 dependency5.type=UsesDependency
+<<<<<<< HEAD
 dependency6.from=bola
 dependency6.to=GameOver
 dependency6.type=UsesDependency
@@ -58,26 +73,62 @@ editor.fx.0.height=739
 editor.fx.0.width=816
 editor.fx.0.x=275
 editor.fx.0.y=-4
+=======
+dependency6.from=form1
+dependency6.to=playbutton
+dependency6.type=UsesDependency
+dependency7.from=MyWorld
+dependency7.to=Counter
+dependency7.type=UsesDependency
+dependency8.from=MyWorld
+dependency8.to=bola
+dependency8.type=UsesDependency
+dependency9.from=MyWorld
+dependency9.to=papan
+dependency9.type=UsesDependency
+editor.fx.0.height=739
+editor.fx.0.width=816
+editor.fx.0.x=-32000
+editor.fx.0.y=-32000
+>>>>>>> fde0fe44f4c87ef8a9c38a4f4444599669d75edc
 mainWindow.height=744
 mainWindow.width=1382
 mainWindow.x=-8
 mainWindow.y=-8
+<<<<<<< HEAD
 package.numDependencies=12
 package.numTargets=8
+=======
+package.numDependencies=11
+package.numTargets=10
+>>>>>>> fde0fe44f4c87ef8a9c38a4f4444599669d75edc
 project.charset=UTF-8
 readme.height=58
 readme.name=@README
 readme.width=47
 readme.x=10
 readme.y=10
+simulation.speed=49
 target1.height=50
+<<<<<<< HEAD
 target1.name=PlayAgain
+=======
+target1.name=playbutton
+>>>>>>> fde0fe44f4c87ef8a9c38a4f4444599669d75edc
 target1.showInterface=false
 target1.type=ClassTarget
 target1.typeParameters=
 target1.width=80
 target1.x=0
 target1.y=0
+target10.height=50
+target10.name=MyWorld
+target10.showInterface=false
+target10.type=ClassTarget
+target10.typeParameters=
+target10.width=80
+target10.x=0
+target10.y=0
 target2.height=50
 target2.name=Counter
 target2.showInterface=false
@@ -95,7 +146,11 @@ target3.width=80
 target3.x=0
 target3.y=0
 target4.height=50
+<<<<<<< HEAD
 target4.name=papan
+=======
+target4.name=quitbutton
+>>>>>>> fde0fe44f4c87ef8a9c38a4f4444599669d75edc
 target4.showInterface=false
 target4.type=ClassTarget
 target4.typeParameters=
@@ -103,7 +158,11 @@ target4.width=80
 target4.x=0
 target4.y=0
 target5.height=50
+<<<<<<< HEAD
 target5.name=teddy
+=======
+target5.name=papan
+>>>>>>> fde0fe44f4c87ef8a9c38a4f4444599669d75edc
 target5.showInterface=false
 target5.type=ClassTarget
 target5.typeParameters=
@@ -111,7 +170,11 @@ target5.width=80
 target5.x=0
 target5.y=0
 target6.height=50
+<<<<<<< HEAD
 target6.name=garis
+=======
+target6.name=teddy
+>>>>>>> fde0fe44f4c87ef8a9c38a4f4444599669d75edc
 target6.showInterface=false
 target6.type=ClassTarget
 target6.typeParameters=
@@ -119,7 +182,11 @@ target6.width=80
 target6.x=0
 target6.y=0
 target7.height=50
+<<<<<<< HEAD
 target7.name=bola
+=======
+target7.name=garis
+>>>>>>> fde0fe44f4c87ef8a9c38a4f4444599669d75edc
 target7.showInterface=false
 target7.type=ClassTarget
 target7.typeParameters=
@@ -127,12 +194,27 @@ target7.width=80
 target7.x=0
 target7.y=0
 target8.height=50
+<<<<<<< HEAD
 target8.name=MyWorld
+=======
+target8.name=bola
+>>>>>>> fde0fe44f4c87ef8a9c38a4f4444599669d75edc
 target8.showInterface=false
 target8.type=ClassTarget
 target8.typeParameters=
 target8.width=80
 target8.x=0
 target8.y=0
+<<<<<<< HEAD
+=======
+target9.height=50
+target9.name=form1
+target9.showInterface=false
+target9.type=ClassTarget
+target9.typeParameters=
+target9.width=80
+target9.x=0
+target9.y=0
+>>>>>>> fde0fe44f4c87ef8a9c38a4f4444599669d75edc
 version=3.0.0
-world.lastInstantiated=MyWorld
+world.lastInstantiated=form1
