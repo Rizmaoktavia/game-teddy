@@ -14,6 +14,18 @@ public class quitbutton extends Actor
      */
     public void act() 
     {
+        if (Greenfoot.mouseClicked(this))
+        {
+            Greenfoot.setWorld(new form1());
+            Greenfoot.stop();
+            //System.exit(10);
+        }
         // Add your action code here.
     }    
+    public quitbutton()
+    {
+        GreenfootImage img=getImage();
+        img.scale(img.getWidth()-50,img.getHeight()-75);
+        setImage(img);
+    }
 }

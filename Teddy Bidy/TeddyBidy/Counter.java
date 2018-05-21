@@ -12,8 +12,8 @@ public class Counter extends Actor
      * Act - do whatever the Counter wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
-    private int value = 0;
-    private int target = 0;
+    public int value = 0;
+    public int target = 0;
     private String text;
     private int stringLength;
     
@@ -35,6 +35,7 @@ public class Counter extends Actor
         updateImage();
     }
     
+    private int totalCount = 0; // Counter default awal = 0
     public void act() {
         if(value < target) {
             value++;
@@ -69,5 +70,5 @@ public class Counter extends Actor
         GreenfootImage image = getImage();
         image.clear();
         image.drawString(text + value, 1, 18);
-    }  
+    }
 }

@@ -19,5 +19,12 @@ public class playbutton extends Actor
            Greenfoot.setWorld(new MyWorld());
        }
         // Add your action code here.
-    }    
+    }  
+    
+    public playbutton()
+    {
+        GreenfootImage img=getImage();
+        img.scale(img.getWidth()-80,img.getHeight()-80);
+        setImage(img);
+    }
 }

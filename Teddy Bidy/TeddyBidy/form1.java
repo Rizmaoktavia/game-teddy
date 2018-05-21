@@ -17,6 +17,8 @@ public class form1 extends World
     {    
         //Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(400, 600, 1); 
-        addObject(playbutton,210,500);
+        addObject(playbutton,210,420);
+        
+        addObject(new quitbutton(), 206, 500);
     }
 }

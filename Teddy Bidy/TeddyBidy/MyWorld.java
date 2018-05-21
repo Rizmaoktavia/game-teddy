@@ -9,7 +9,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 public class MyWorld extends World
 {
     Counter counter = new Counter("SCORE: ");
-    GreenfootSound backgroundMusic = new GreenfootSound("theme.mp3");
+    //GreenfootSound backgroundMusic = new GreenfootSound("theme.mp3");
     public MyWorld()
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
@@ -42,22 +42,29 @@ public class MyWorld extends World
         addObject(new teddy(), 372, 190);
         
         addObject(new garis(), 200, 600);
-        
-        backgroundMusic.playLoop();
-        
+        Greenfoot.playSound("theme.mp3");
+        //backgroundMusic.playLoop();
     }
-    
+    /**
     public void stopped()
     {
-        backgroundMusic.pause();
+        backgroundMusic.stop();
     }
  
     public void started()
     {
         backgroundMusic.playLoop();
-    }
+    }*/
     
-    public void tambah(){
+    
+    public void tambah()
+    {
         counter.add(5);
+        if (counter.value == 5)
+        {
+            Greenfoot.stop();  // stop permainan
+            Greenfoot.playSound("menang.wav"); //mainkan sound hore.wav
+            Greenfoot.setWorld(new Menang());
+        }
     }
 }

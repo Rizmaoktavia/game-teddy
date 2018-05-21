@@ -25,9 +25,14 @@ public class bola extends Actor
         atas();
         papankayu();
         teddy();
+    }
     
+    public void gameOver()
+    {
         if (isTouching(garis.class)){
-            Greenfoot.stop ();
+            //Greenfoot.stop ();
+            Greenfoot.playSound("newfall2.mp3");
+            Greenfoot.playSound("GameOver.mp3");
             getWorld().addObject(new GameOver(),
             getWorld().getWidth()/2,
             getWorld().getHeight()/2);
@@ -59,14 +64,14 @@ public class bola extends Actor
     public void kanan()
     {
         if(getX()>=getWorld().getWidth()-getImage().getWidth()/2){
-            x=x-1;
+            x=x-2;
         }
     }
     
     public void kiri()
     {
         if(getX()<=getImage().getWidth()/2){
-            x=x+1;
+            x=x+2;
         }
     }
     
@@ -89,11 +94,12 @@ public class bola extends Actor
         if(kayu !=null){
             y=y-1;
         }
-        if(getY()>=getWorld().getHeight()-getImage().getHeight()/2){
-            Greenfoot.stop();
-            Greenfoot.playSound("newfall2.mp3");
-            Greenfoot.playSound("GameOver.mp3");
-        }
+        gameOver();
+        /**if(getY()>=getWorld().getHeight()-getImage().getHeight()/2){
+            //Greenfoot.stop();
+            
+            gameOver();
+        }*/
     }
     
     public void teddy()
