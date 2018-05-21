@@ -26,23 +26,20 @@ public class bola extends Actor
         papankayu();
         teddy();
     
-    if (isTouching(garis.class)){
-    Greenfoot.stop ();
-    getWorld().addObject(new GameOver(),
-    getWorld().getWidth()/2,
-    getWorld().getHeight()/2);
-    getWorld().addObject(new PlayAgain(),
-    getWorld().getWidth()/2,
-    getWorld().getHeight()-150);
-
-
+        if (isTouching(garis.class)){
+            Greenfoot.stop ();
+            getWorld().addObject(new GameOver(),
+            getWorld().getWidth()/2,
+            getWorld().getHeight()/2);
+            getWorld().addObject(new PlayAgain(),
+            getWorld().getWidth()/2,
+            getWorld().getHeight()-170);
+            getWorld().addObject(new quitbutton(),
+            getWorld().getWidth()/2,
+            getWorld().getHeight()-100);
+        }
     }
-    }
     
-    
-    
-
-   
     /**
      * Act - do whatever the bola wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
@@ -54,23 +51,25 @@ public class bola extends Actor
         setImage(img);
     }
     
-   
     public void gerak()
     {
         setLocation(getX()+x,getY()+y);
     }
+    
     public void kanan()
     {
         if(getX()>=getWorld().getWidth()-getImage().getWidth()/2){
             x=x-1;
         }
-        }
+    }
+    
     public void kiri()
     {
         if(getX()<=getImage().getWidth()/2){
             x=x+1;
         }
     }
+    
     public void atas()
     {
         Actor teddybear=getOneIntersectingObject(teddy.class);
@@ -83,6 +82,7 @@ public class bola extends Actor
         //}
         
     }
+    
     public void papankayu()
     {
         Actor kayu=getOneIntersectingObject(papan.class);
@@ -94,8 +94,8 @@ public class bola extends Actor
             Greenfoot.playSound("newfall2.mp3");
             Greenfoot.playSound("GameOver.mp3");
         }
-        
     }
+    
     public void teddy()
     {
       Actor teddy = getOneIntersectingObject(teddy.class);
@@ -115,8 +115,5 @@ public class bola extends Actor
             Greenfoot.playSound("coins.mp3");
         }
       }
-        
     }
-   
-   
 }

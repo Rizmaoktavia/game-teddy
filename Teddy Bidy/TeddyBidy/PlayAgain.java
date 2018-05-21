@@ -19,5 +19,12 @@ public class PlayAgain extends Actor
             Greenfoot.setWorld(new MyWorld());
         
         }
-    }    
+    }
+    
+    public PlayAgain()
+    {
+        GreenfootImage img=getImage();
+        img.scale(img.getWidth()-10,img.getHeight()-10);
+        setImage(img);
+    }
 }

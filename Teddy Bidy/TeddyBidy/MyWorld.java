@@ -46,6 +46,7 @@ public class MyWorld extends World
         backgroundMusic.playLoop();
         
     }
+    
     public void stopped()
     {
         backgroundMusic.pause();
@@ -55,6 +56,7 @@ public class MyWorld extends World
     {
         backgroundMusic.playLoop();
     }
+    
     public void tambah(){
         counter.add(5);
     }

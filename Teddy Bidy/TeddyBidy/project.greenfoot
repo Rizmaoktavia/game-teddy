@@ -1,7 +1,7 @@
 #Greenfoot project file
 =\=\=\=\=\=\=
 <<<<<<<=HEAD
->>>>>>>=8b58d9ac3583c97771479e4b9038725de5341636
+>>>>>>>=fde0fe44f4c87ef8a9c38a4f4444599669d75edc
 class.Counter.image=Counter.png
 class.Counter.superclass=greenfoot.Actor
 class.GameOver.image=Untitled-1.png
@@ -14,7 +14,7 @@ class.bola.image=orange.png
 class.bola.superclass=greenfoot.Actor
 class.form1.image=unnamed.jpg
 class.form1.superclass=greenfoot.World
-class.garis.image=garis.jpg
+class.garis.image=garis.png
 class.garis.superclass=greenfoot.Actor
 class.papan.image=bread.png
 class.papan.superclass=greenfoot.Actor
@@ -27,81 +27,58 @@ class.teddy.superclass=greenfoot.Actor
 dependency1.from=PlayAgain
 dependency1.to=MyWorld
 dependency1.type=UsesDependency
-dependency10.from=MyWorld
-<<<<<<< HEAD
-dependency10.to=papan
+dependency10.from=form1
+dependency10.to=playbutton
 dependency10.type=UsesDependency
 dependency11.from=MyWorld
-dependency11.to=teddy
+dependency11.to=Counter
 dependency11.type=UsesDependency
 dependency12.from=MyWorld
-dependency12.to=garis
+dependency12.to=bola
 dependency12.type=UsesDependency
-=======
-dependency10.to=teddy
-dependency10.type=UsesDependency
-dependency11.from=MyWorld
-dependency11.to=garis
-dependency11.type=UsesDependency
->>>>>>> fde0fe44f4c87ef8a9c38a4f4444599669d75edc
-dependency2.from=bola
-dependency2.to=papan
+dependency13.from=MyWorld
+dependency13.to=papan
+dependency13.type=UsesDependency
+dependency14.from=MyWorld
+dependency14.to=teddy
+dependency14.type=UsesDependency
+dependency15.from=MyWorld
+dependency15.to=garis
+dependency15.type=UsesDependency
+dependency2.from=playbutton
+dependency2.to=MyWorld
 dependency2.type=UsesDependency
 dependency3.from=bola
-dependency3.to=teddy
+dependency3.to=papan
 dependency3.type=UsesDependency
 dependency4.from=bola
-dependency4.to=MyWorld
+dependency4.to=teddy
 dependency4.type=UsesDependency
 dependency5.from=bola
-dependency5.to=garis
+dependency5.to=MyWorld
 dependency5.type=UsesDependency
-<<<<<<< HEAD
 dependency6.from=bola
-dependency6.to=GameOver
+dependency6.to=garis
 dependency6.type=UsesDependency
 dependency7.from=bola
 dependency7.to=PlayAgain
 dependency7.type=UsesDependency
-dependency8.from=MyWorld
-dependency8.to=Counter
+dependency8.from=bola
+dependency8.to=GameOver
 dependency8.type=UsesDependency
-dependency9.from=MyWorld
-dependency9.to=bola
+dependency9.from=bola
+dependency9.to=quitbutton
 dependency9.type=UsesDependency
-editor.fx.0.height=739
-editor.fx.0.width=816
-editor.fx.0.x=275
-editor.fx.0.y=-4
-=======
-dependency6.from=form1
-dependency6.to=playbutton
-dependency6.type=UsesDependency
-dependency7.from=MyWorld
-dependency7.to=Counter
-dependency7.type=UsesDependency
-dependency8.from=MyWorld
-dependency8.to=bola
-dependency8.type=UsesDependency
-dependency9.from=MyWorld
-dependency9.to=papan
-dependency9.type=UsesDependency
-editor.fx.0.height=739
-editor.fx.0.width=816
+editor.fx.0.height=28
+editor.fx.0.width=160
 editor.fx.0.x=-32000
 editor.fx.0.y=-32000
->>>>>>> fde0fe44f4c87ef8a9c38a4f4444599669d75edc
 mainWindow.height=744
 mainWindow.width=1382
 mainWindow.x=-8
 mainWindow.y=-8
-<<<<<<< HEAD
-package.numDependencies=12
-package.numTargets=8
-=======
-package.numDependencies=11
-package.numTargets=10
->>>>>>> fde0fe44f4c87ef8a9c38a4f4444599669d75edc
+package.numDependencies=15
+package.numTargets=11
 project.charset=UTF-8
 readme.height=58
 readme.name=@README
@@ -110,11 +87,7 @@ readme.x=10
 readme.y=10
 simulation.speed=49
 target1.height=50
-<<<<<<< HEAD
 target1.name=PlayAgain
-=======
-target1.name=playbutton
->>>>>>> fde0fe44f4c87ef8a9c38a4f4444599669d75edc
 target1.showInterface=false
 target1.type=ClassTarget
 target1.typeParameters=
@@ -122,15 +95,23 @@ target1.width=80
 target1.x=0
 target1.y=0
 target10.height=50
-target10.name=MyWorld
+target10.name=form1
 target10.showInterface=false
 target10.type=ClassTarget
 target10.typeParameters=
 target10.width=80
 target10.x=0
 target10.y=0
+target11.height=50
+target11.name=MyWorld
+target11.showInterface=false
+target11.type=ClassTarget
+target11.typeParameters=
+target11.width=80
+target11.x=0
+target11.y=0
 target2.height=50
-target2.name=Counter
+target2.name=playbutton
 target2.showInterface=false
 target2.type=ClassTarget
 target2.typeParameters=
@@ -138,7 +119,7 @@ target2.width=80
 target2.x=0
 target2.y=0
 target3.height=50
-target3.name=GameOver
+target3.name=Counter
 target3.showInterface=false
 target3.type=ClassTarget
 target3.typeParameters=
@@ -146,11 +127,7 @@ target3.width=80
 target3.x=0
 target3.y=0
 target4.height=50
-<<<<<<< HEAD
-target4.name=papan
-=======
-target4.name=quitbutton
->>>>>>> fde0fe44f4c87ef8a9c38a4f4444599669d75edc
+target4.name=GameOver
 target4.showInterface=false
 target4.type=ClassTarget
 target4.typeParameters=
@@ -158,11 +135,7 @@ target4.width=80
 target4.x=0
 target4.y=0
 target5.height=50
-<<<<<<< HEAD
-target5.name=teddy
-=======
-target5.name=papan
->>>>>>> fde0fe44f4c87ef8a9c38a4f4444599669d75edc
+target5.name=quitbutton
 target5.showInterface=false
 target5.type=ClassTarget
 target5.typeParameters=
@@ -170,11 +143,7 @@ target5.width=80
 target5.x=0
 target5.y=0
 target6.height=50
-<<<<<<< HEAD
-target6.name=garis
-=======
-target6.name=teddy
->>>>>>> fde0fe44f4c87ef8a9c38a4f4444599669d75edc
+target6.name=papan
 target6.showInterface=false
 target6.type=ClassTarget
 target6.typeParameters=
@@ -182,11 +151,7 @@ target6.width=80
 target6.x=0
 target6.y=0
 target7.height=50
-<<<<<<< HEAD
-target7.name=bola
-=======
-target7.name=garis
->>>>>>> fde0fe44f4c87ef8a9c38a4f4444599669d75edc
+target7.name=teddy
 target7.showInterface=false
 target7.type=ClassTarget
 target7.typeParameters=
@@ -194,27 +159,20 @@ target7.width=80
 target7.x=0
 target7.y=0
 target8.height=50
-<<<<<<< HEAD
-target8.name=MyWorld
-=======
-target8.name=bola
->>>>>>> fde0fe44f4c87ef8a9c38a4f4444599669d75edc
+target8.name=garis
 target8.showInterface=false
 target8.type=ClassTarget
 target8.typeParameters=
 target8.width=80
 target8.x=0
 target8.y=0
-<<<<<<< HEAD
-=======
 target9.height=50
-target9.name=form1
+target9.name=bola
 target9.showInterface=false
 target9.type=ClassTarget
 target9.typeParameters=
 target9.width=80
 target9.x=0
 target9.y=0
->>>>>>> fde0fe44f4c87ef8a9c38a4f4444599669d75edc
 version=3.0.0
 world.lastInstantiated=form1
