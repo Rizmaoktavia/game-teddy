@@ -31,8 +31,14 @@ public class bola extends Actor
     getWorld().addObject(new GameOver(),
     getWorld().getWidth()/2,
     getWorld().getHeight()/2);
-}
+    getWorld().addObject(new PlayAgain(),
+    getWorld().getWidth()/2,
+    getWorld().getHeight()-150);
+
+
     }
+    }
+    
     
     
 
